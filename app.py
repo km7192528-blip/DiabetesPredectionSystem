@@ -45,7 +45,7 @@ label {
 
 # Load Model
 model = pickle.load(
-    open("model/diabetes_model.pkl", "rb")
+    open("diabetes_model.pkl", "rb")
 )
 
 # Sidebar
